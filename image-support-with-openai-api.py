@@ -3,7 +3,7 @@ import requests
 import os
 from dotenv import load_dotenv
 import get_prompt
-
+# https://platform.openai.com/docs/guides/vision
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 OPENAI_MODEL = "gpt-4o-mini"
